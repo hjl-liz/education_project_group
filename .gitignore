@@ -1,0 +1,12 @@
+# Ignore raw data (too large)
+data_raw/*
+
+# Allow structure but not files
+!data_raw/.gitkeep
+
+# Ignore system files
+.DS_Store
+
+# Ignore large outputs
+*.csv
+*.xlsx
